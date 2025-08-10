@@ -1,0 +1,40 @@
+[
+  {
+    "category": "Languages",
+    "color": "sky-400",
+    "skills": [
+      "Typescript",
+      "JavaScript",
+      "Python",
+      "C#",
+      "Html",
+      "Css",
+      "Java",
+      "Php"
+    ]
+  },
+  {
+    "category": "Frameworks & Libraries",
+    "color": "blue-400",
+    "skills": [
+      "React",
+      "Express",
+      "Node.js",
+      "Tailwind CSS",
+      "ASP.NET",
+      "FastAPI",
+      "Flutter",
+      "Selenium"
+    ]
+  },
+  {
+    "category": "Databases",
+    "color": "purple-400",
+    "skills": ["MongoDB", "PostgreSQL", "MySQL", "SQLite", "SQL Server"]
+  },
+  {
+    "category": "Tools",
+    "color": "orange-400",
+    "skills": ["Git", "Docker", "Firebase", "Curl", "Nginx", "Vite"]
+  }
+]
