@@ -1,0 +1,121 @@
+[
+  {
+    "category": "Web Application",
+    "categoryDesc": "Projects related to web application development",
+    "color": "sky-400",
+    "projects": [
+      {
+        "id": "Trabahuso",
+        "name": "Trabahuso",
+        "image": "/src/assets/project-demos/trabahuso.webp",
+        "description": "Data visualizations of scraped software developer jobs providing insights to the software developer job market in the Philippines.",
+        "technologies": [
+          "typescript",
+          "react",
+          "ASP.NET",
+          "python",
+          "selenium",
+          "sqlite",
+          "docker"
+        ],
+        "github": "https://github.com/kenBinary/trabahuso-frontend",
+        "demo": "https://trabahuso.kjbdev.works/"
+      },
+      {
+        "id": "Boarding House Management System",
+        "name": "Boarding House Management System",
+        "image": "/src/assets/project-demos/bh-management.webp",
+        "description": "Web app that allows a landlord to efficiently manage their boarding house.",
+        "technologies": ["react", "typescript", "express.js", "mysql"],
+        "github": "https://github.com/kenBinary/bh-management-v2",
+        "demo": null
+      }
+    ]
+  },
+  {
+    "category": "Mobile Application",
+    "categoryDesc": "Projects related to mobile application development",
+    "color": "blue-400",
+    "projects": [
+      {
+        "id": "Fitser",
+        "name": "Fitser",
+        "image": null,
+        "description": "A workout planner and tracker app.",
+        "technologies": ["dart", "flutter", "firebase"],
+        "github": "https://github.com/kenBinary/fitster",
+        "demo": null
+      }
+    ]
+  },
+  {
+    "category": "Desktop Software",
+    "categoryDesc": "Projects related to desktop software development",
+    "color": "purple-400",
+    "projects": [
+      {
+        "id": "DB-OCSVM Simulator",
+        "name": "DB-OCSVM Simulator",
+        "image": null,
+        "description": "Simulator to evaluate the model's (ocsvm, db-ocsvm) performance.",
+        "technologies": ["React", "Typescript", "Electron"],
+        "github": "https://github.com/kenBinary/db-ocsvm-simulator",
+        "demo": null
+      }
+    ]
+  },
+  {
+    "category": "APIs & Back-end Services",
+    "categoryDesc": "Projects related to APIs and back-end services",
+    "color": "green-400",
+    "projects": [
+      {
+        "id": "Trabahuso Api",
+        "name": "Trabahuso Api",
+        "image": null,
+        "description": "API for Trabahuso project providing endpoints for job data retrieval and analysis.",
+        "technologies": ["C#", "ASP.NET", "Docker"],
+        "github": "https://github.com/kenBinary/trabahuso-api"
+      }
+    ]
+  },
+  {
+    "category": "Data Science & AI",
+    "categoryDesc": "Machine learning models, NLP tools, recommendation engines, data visualizations",
+    "color": "orange-400",
+    "projects": [
+      {
+        "id": "Network Anomaly Detection",
+        "name": "Network Anomaly Detection",
+        "image": null,
+        "description": "Enhanced network anomaly detection implementing hybrid OCSVM and DBSCAN model.",
+        "technologies": [
+          "Python",
+          "scikit-learn",
+          "Pytorch",
+          "numpy",
+          "pandas",
+          "Matplotlib"
+        ],
+        "github": "https://github.com/kenBinary/DBSCAN-OCSVM-MODEL",
+        "demo": null
+      }
+    ]
+  },
+  {
+    "category": "Automation & Scripts",
+    "categoryDesc": "Web scraping tools, cron jobs, batch file processors",
+    "color": "yellow-400",
+    "projects": [
+      {
+        "id": "Trabahuso Web Scraper",
+        "name": "Trabahuso Web Scraper",
+        "image": null,
+        "description": "Web scraper for Trabahuso project that collects job postings from various websites.",
+        "technologies": ["Python", "Selenium"],
+        "github": "https://github.com/kenBinary/trabahuso-web-scraper-py",
+        "demo": null
+      }
+    ]
+  }
+]

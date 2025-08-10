@@ -146,3 +146,24 @@
     transform: translate(2px, 0);
   }
 }
+
+.project-glitch-overlay {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+
+.project-card-3d:hover .project-glitch-overlay {
+  animation: glitchSweep 0.8s ease-in-out;
+}
+
+@keyframes glitchSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
