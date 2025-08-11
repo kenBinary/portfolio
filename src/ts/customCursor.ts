@@ -2,15 +2,12 @@ let cursorTrails: HTMLElement[] = [];
 
 export function customCursor() {
   const customCursor = document.querySelector("#custom-cursor") as HTMLElement;
-  customCursor.style.display = "none";
-  customCursor.className = "custom-cursor";
-  document.body.appendChild(customCursor);
+  customCursor.classList.add("custom-cursor");
 
   let mouseX = 0;
   let mouseY = 0;
 
   document.addEventListener("mousemove", (e) => {
-    customCursor.style.display = "block";
     mouseX = e.clientX;
     mouseY = e.clientY;
 
