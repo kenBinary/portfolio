@@ -1,18 +1,9 @@
 import type { Project } from "../types/project";
 import { createProjectCard } from "../components/project-card";
-
-async function getFeaturedProjects(): Promise<Project[]> {
-  try {
-    const response = await fetch("/src/data/featuredProjects.json");
-    return await response.json();
-  } catch (error) {
-    console.error("Failed to load projects data:", error);
-    return [];
-  }
-}
+import featureProjects from "../data/featuredProjects.json";
 
 export async function listFeaturedProjects(): Promise<void> {
-  const featuredProjects = await getFeaturedProjects();
+  const featuredProjects = featureProjects as Project[];
   const projectListContainer = document.getElementById("project-list");
 
   if (!projectListContainer) {

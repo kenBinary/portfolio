@@ -1,5 +1,6 @@
 import { createAllProjectsModal } from "../components/all-project-modal";
 import type { ProjectCategory } from "../types/project";
+import allProjects from "../data/allProjects.json";
 
 export function viewAllProjects(): void {
   const allProjectsBtn = document.getElementById("all-projects-btn");
@@ -10,18 +11,8 @@ export function viewAllProjects(): void {
   });
 }
 
-async function loadProjectsData(): Promise<ProjectCategory[]> {
-  try {
-    const response = await fetch("/src/data/allProjects.json");
-    return await response.json();
-  } catch (error) {
-    console.error("Failed to load projects data:", error);
-    return [];
-  }
-}
-
 async function showAllProjectsTerminal(): Promise<void> {
-  const projectsData = await loadProjectsData();
+  const projectsData = allProjects as ProjectCategory[];
 
   const modal = createAllProjectsModal(projectsData);
   document.body.appendChild(modal);
