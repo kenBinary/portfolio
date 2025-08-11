@@ -1,7 +1,7 @@
 [
   {
     "category": "Languages",
-    "color": "sky-400",
+    "color": "blue-400",
     "skills": [
       "Typescript",
       "JavaScript",
@@ -34,7 +34,7 @@
   },
   {
     "category": "Tools",
-    "color": "orange-400",
+    "color": "purple-400",
     "skills": ["Git", "Docker", "Firebase", "Curl", "Nginx", "Vite"]
   }
 ]
